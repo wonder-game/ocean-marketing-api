@@ -1,0 +1,34 @@
+{
+    "name": "huangyueguang/ads-marketing-api",
+    "description": "头条 MarketingApi SDK",
+    "keywords": [
+        "头条",
+        "marketing-api",
+        "sdk"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "authors": [
+        {
+            "name": "huangyueguang",
+            "email": "1218199594@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ToutiaoSdk\\": "core/Profile/",
+            "core\\": "core/",
+            "Report\\": "Report/",
+            "Dmp\\": "Dmp/",
+            "AdvertisingDelivery\\": "AdvertisingDelivery/",
+            "AdvertisingOriginality\\": "AdvertisingOriginality/",
+            "AdvertisingPlan\\": "AdvertisingPlan/",
+            "AuthenticationOauth\\": "AuthenticationOauth/",
+            "Tool\\": "Tool/",
+            "Advertiser\\": "Advertiser/"
+        }
+    }
+}
