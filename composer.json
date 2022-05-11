@@ -20,16 +20,16 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "ToutiaoSdk\\": "core/Profile/",
-            "core\\": "core/",
-            "Report\\": "Report/",
-            "Dmp\\": "Dmp/",
-            "AdvertisingDelivery\\": "AdvertisingDelivery/",
-            "AdvertisingOriginality\\": "AdvertisingOriginality/",
-            "AdvertisingPlan\\": "AdvertisingPlan/",
-            "AuthenticationOauth\\": "AuthenticationOauth/",
-            "Tool\\": "Tool/",
-            "Advertiser\\": "Advertiser/"
+            "ToutiaoSdk\\": "toutiao-marketing-sdk/core/Profile/",
+            "core\\": "toutiao-marketing-sdk/core/",
+            "Report\\": "toutiao-marketing-sdk/Report/",
+            "Dmp\\": "toutiao-marketing-sdk/Dmp/",
+            "AdvertisingDelivery\\": "toutiao-marketing-sdk/AdvertisingDelivery/",
+            "AdvertisingOriginality\\": "toutiao-marketing-sdk/AdvertisingOriginality/",
+            "AdvertisingPlan\\": "toutiao-marketing-sdk/AdvertisingPlan/",
+            "AuthenticationOauth\\": "toutiao-marketing-sdk/AuthenticationOauth/",
+            "Tool\\": "toutiao-marketing-sdk/Tool/",
+            "Advertiser\\": "toutiao-marketing-sdk/Advertiser/"
         }
     }
 }
