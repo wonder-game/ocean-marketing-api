@@ -103,6 +103,12 @@ var_dump($req->getBody());
  拓展人群包| $client::Dmp()->customAudienceLookalike()
  规则人群包| $client::Dmp()->customAudienceRule()
  
+  工具(应用管理) | 执行方式
+  ------------ | -------------
+  查询应用信息 | $client::Tool()->appManagement->getApp() 
+  查询游戏信息 | $client::Tool()->appManagement->getBooking() 
+  查询应用分包列表 | $client::Tool()->appManagement->getExtendPackage() 
+   
  工具 （文件管理）| 执行方式
  ------------- | -------------
  广告主图片|  $client::Tool()->file->imageAdvertiser()
@@ -160,12 +166,9 @@ var_dump($req->getBody());
  工具 | 执行方式
  ------------ | -------------
  获取建站列表 | $client::Tool()->siteGet()
+  
  
- 工具(应用管理) | 执行方式
- 
-查询应用信息 $client::Tool()->appManagement->getApp() 
-查询游戏信息 $client::Tool()->appManagement->getBooking() 
-查询应用分包列表 $client::Tool()->appManagement->getExtendPackage() 
+
  
  
 ## License
