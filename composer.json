@@ -1,7 +1,8 @@
 {
     "name": "grace-team-work/ads-marketing-api",
-    "description": "头条 MarketingApi SDK",
+    "description": "巨量引擎 MarketingApi SDK",
     "keywords": [
+        "巨量引擎",
         "头条",
         "marketing-api",
         "sdk"
