@@ -10,7 +10,7 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->picToVideo->statusGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setVideoId('11');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

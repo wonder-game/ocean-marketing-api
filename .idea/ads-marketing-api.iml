@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/AdvertisingDelivery" isTestSource="false" packagePrefix="AdvertisingDelivery\" />
+      <sourceFolder url="file://$MODULE_DIR$/Advertiser" isTestSource="false" packagePrefix="Advertiser\" />
+      <sourceFolder url="file://$MODULE_DIR$/Dmp" isTestSource="false" packagePrefix="Dmp\" />
+      <sourceFolder url="file://$MODULE_DIR$/AuthenticationOauth" isTestSource="false" packagePrefix="AuthenticationOauth\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/AdvertisingPlan" isTestSource="false" packagePrefix="AdvertisingPlan\" />
+      <sourceFolder url="file://$MODULE_DIR$/core" isTestSource="false" packagePrefix="core\" />
+      <sourceFolder url="file://$MODULE_DIR$/Tool" isTestSource="false" packagePrefix="Tool\" />
+      <sourceFolder url="file://$MODULE_DIR$/core/Profile" isTestSource="false" packagePrefix="ToutiaoSdk\" />
+      <sourceFolder url="file://$MODULE_DIR$/Report" isTestSource="false" packagePrefix="Report\" />
+      <sourceFolder url="file://$MODULE_DIR$/AdvertisingOriginality" isTestSource="false" packagePrefix="AdvertisingOriginality\" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

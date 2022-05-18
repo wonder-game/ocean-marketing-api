@@ -11,8 +11,7 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->adConvert->updateStatus();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setConvertId(1624067041686558);
-$req->setOptStatus('AD_CONVERT_OPT_STATUS_DISABLE');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

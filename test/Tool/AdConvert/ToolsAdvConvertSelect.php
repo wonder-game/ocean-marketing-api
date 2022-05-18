@@ -10,6 +10,7 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->adConvert->advConvertSelect();
-$req->setAdvertiserId(ADVERTISER_ID);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

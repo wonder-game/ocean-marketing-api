@@ -11,7 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->queryTool->adQualityGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setAdIds(['100']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

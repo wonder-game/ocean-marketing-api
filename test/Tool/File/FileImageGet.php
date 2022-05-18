@@ -11,8 +11,8 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->file->imageGet();
-
-$req->setAdvertiserId(ADVERTISER_ID);
+$args = [];
+$req->setArgs($args);
 
 
 print_r($client->excute($req));

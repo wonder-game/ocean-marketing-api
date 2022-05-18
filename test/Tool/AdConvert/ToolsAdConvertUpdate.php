@@ -11,8 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->adConvert->update();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setConvertId('1624248653889560');
-$req->setDownloadUrl('https://www.baidu.com');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

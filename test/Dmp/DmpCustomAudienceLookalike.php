@@ -11,10 +11,7 @@ require __DIR__ . '/../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Dmp()->customAudienceLookalike();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setCustomAudienceId('110206880');
-$req->setLookalikeNum(110000);
-$req->setName('test-test');
-$req->setTag('测试的，别乱动');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

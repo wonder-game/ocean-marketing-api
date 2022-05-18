@@ -9,7 +9,6 @@ require __DIR__ . '/../../index.php';
 require __DIR__ . '/../config.php';
 $auth = new ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
 $client = $auth->makeClient(TOKEN);
-$req = $client::AdvertisingOriginality()->CreativeMaterialRead()->setAdvertiserId(ADVERTISER_ID)
-    ->setCreativeIds(['1625331325456445'])
-    ->setFields(["id", "ad_id", "title"])->send();
+$args = [];
+$req = $client::AdvertisingOriginality()->CreativeMaterialRead()->setArgs($args)->send();
 var_dump($req->getBody());

@@ -9,7 +9,6 @@ require __DIR__ . '/../../index.php';
 require __DIR__ . '/../config.php';
 $auth = new ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
 $client = $auth->makeClient(TOKEN);
-$req = $client::AdvertisingPlan()->AdUpdateStatus()
-    ->setAdvertiserId(ADVERTISER_ID)->setAdIds(['1624068174426120'])
-    ->setOptStatus('disable')->send();
+$args = [];
+$req = $client::AdvertisingPlan()->AdUpdateStatus()->setArgs($args)->send();
 var_dump($req->getBody());

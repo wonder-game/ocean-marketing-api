@@ -12,7 +12,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->queryTool->bidSuggest();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setPricing('PRICING_CPC');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

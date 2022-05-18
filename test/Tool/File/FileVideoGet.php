@@ -10,8 +10,7 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->file->videoGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setPageSize(5);
-$req->setPage(2);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

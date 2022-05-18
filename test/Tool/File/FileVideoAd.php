@@ -12,8 +12,7 @@ $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $file = __DIR__ . '/test.mp4';
 $req = $client::Tool()->file->videoAd();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setVideoFile($file);
-$req->setVideoSignature(md5_file($file));
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

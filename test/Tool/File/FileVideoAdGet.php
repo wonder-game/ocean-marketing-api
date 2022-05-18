@@ -11,7 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->file->videoAdGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setVideoIds(['v020331c0000bh96brhpjc2htdvag21g']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

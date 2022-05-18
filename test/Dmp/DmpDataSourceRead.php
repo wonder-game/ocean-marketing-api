@@ -11,7 +11,7 @@ require __DIR__ . '/../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Dmp()->dataSourceRead();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setDataSourceIdList(['067d127009514acfb2eb7b2f022ab7f4']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

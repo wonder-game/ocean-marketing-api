@@ -1,14 +1,11 @@
-# toutiao-marketing-sdk
-- 今日头条MARKETING API SDK
+# ads-marketing-api
+- 巨量引擎 MARKETING API SDK
 
 ## Installation
 
 ```
-composer require rx-coder/toutiao-marketing-sdk:*
+composer require grace-team-work/ads-marketing-api
 ```
-
-## Api Doc 
-
 
 ## Requirements
 
@@ -16,6 +13,7 @@ composer require rx-coder/toutiao-marketing-sdk:*
 
 ## Directory Structure
 ```
+Advertiser/           账号服务模块
 AdvertisingDelivery/           广告组模块
 AdvertisingOriginality/        广告创意模块
 AdvertisingPlan/               广告计划模块
@@ -24,6 +22,10 @@ core/                          sdk核心
 Dmp/                           DMP人群管理模块
 Report/                        报表模块
 Tool/                          工具模块
+Tool/AppManagement             工具模块/应用管理
+Tool/AdConvert                 工具模块/转化目标管理
+Tool/CreativeWord              工具模块/动态创意词包管理
+Tool/File                      工具模块/素材管理
 ```
 
 ## Example
@@ -40,11 +42,15 @@ print_r($auth->refreshToken(REFRESH_TOKEN));
 ```php
 // 调用示例
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
-$req = $client::AdvertisingDelivery()->campaignGet()->setAdvertiserId(ADVERTISER_ID)->send();
+$args = [];
+$req = $client::AdvertisingDelivery()->campaignGet()->setArgs($args)->send();
 var_dump($req->getBody());
 ```
 
 ## Method introduction
+账号服务模块       |执行方式
+  ------------- | -------------
+ 获取纵横组织账户(广告主)       |$client::Advertiser()->majordomoAdvertise()| 
 
 广告组模块       |执行方式
   ------------- | -------------
@@ -155,14 +161,13 @@ var_dump($req->getBody());
  ------------ | -------------
  获取建站列表 | $client::Tool()->siteGet()
  
-## Authors && Contributors
-
-- xiayifeng
-- zhangwenzong
-
-## Contact information
-- QQ群：712720083
-
+ 工具(应用管理) | 执行方式
+ 
+查询应用信息 $client::Tool()->appManagement->getApp() 
+查询游戏信息 $client::Tool()->appManagement->getBooking() 
+查询应用分包列表 $client::Tool()->appManagement->getExtendPackage() 
+ 
+ 
 ## License
 
 licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)

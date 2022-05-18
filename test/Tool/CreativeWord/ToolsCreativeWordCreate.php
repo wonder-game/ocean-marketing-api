@@ -11,10 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->creativeWord->create();
-
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setName('花花卡');
-$req->setDefaultWord('测');
-$req->setWords(['试']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

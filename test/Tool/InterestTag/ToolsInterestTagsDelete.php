@@ -12,8 +12,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->interestTag->delete();
-
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setId(1624253825408027);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

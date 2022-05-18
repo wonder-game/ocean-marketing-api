@@ -10,6 +10,6 @@ require __DIR__ . '/../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Dmp()->customAudienceRead();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setCustomAudienceIds([110206764]);
+$args = [];
+$req->setArgs($args);
 print_r($client->excute($req));

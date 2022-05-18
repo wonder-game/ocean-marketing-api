@@ -10,5 +10,6 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->queryTool->industryGet();
-$req->setLevel(2);
+$args = [];
+$req->setArgs($args);
 print_r($client->excute($req));

@@ -12,7 +12,7 @@ $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->creativeWord->delete();
 
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setCreativeWordId(8248);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

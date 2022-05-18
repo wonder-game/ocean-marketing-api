@@ -11,10 +11,7 @@ require __DIR__.'/../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Report()->audienceProvince();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setStartDate('2019-01-29');
-$req->setEndDate('2019-01-29');
-$req->setIdType("AUDIENCE_STAT_ID_TYPE_ADVERTISER");
-$req->setMetrics(["cost"]);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

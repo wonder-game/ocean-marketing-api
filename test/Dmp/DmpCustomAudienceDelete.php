@@ -11,7 +11,6 @@ require __DIR__ . '/../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Dmp()->customAudienceDelete();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setCustomAudienceId('110206648');
-
+$args = [];
+$req->setArgs($args);
 print_r($client->excute($req));

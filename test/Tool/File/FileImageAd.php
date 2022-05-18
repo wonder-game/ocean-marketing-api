@@ -13,8 +13,7 @@ $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $file = __DIR__ . '/T.png';
 
 $req = $client::Tool()->file->imageAd();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setImageFile($file);
-$req->setImageSignature(md5_file($file));
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

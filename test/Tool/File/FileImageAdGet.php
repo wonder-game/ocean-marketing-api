@@ -12,7 +12,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->file->imageAdGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setImageIds(['web.business.image/201901315d0d9323af335d944065b39c']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

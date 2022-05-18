@@ -13,7 +13,7 @@ use core\Profile\RpcRequest;
 
 class AppGetBooking extends RpcRequest
 {
-    protected $url = '/2/tools/app_management/app/get/';
+    protected $url = '/2/tools/app_management/booking/get/';
     protected $method = 'GET';
     protected $content_type = 'application/json';
 

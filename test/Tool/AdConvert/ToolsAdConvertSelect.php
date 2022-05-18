@@ -10,7 +10,7 @@ require __DIR__ . '/../../config.php';
 
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 $req = $client::Tool()->adConvert->select();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setPackageName('sdwe');
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

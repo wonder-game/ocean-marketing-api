@@ -13,7 +13,7 @@ use core\Profile\RpcRequest;
 
 class AppGetExtendPackage extends RpcRequest
 {
-    protected $url = '/2/tools/app_management/extend_package/list_v2/';
+    protected $url = '/2/tools/app_management/extend_package/list/';
     protected $method = 'GET';
     protected $content_type = 'application/json';
 

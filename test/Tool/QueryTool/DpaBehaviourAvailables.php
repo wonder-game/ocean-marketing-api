@@ -11,7 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->queryTool->dpaBehaviourAvailables();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setPlatformId(1001);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

@@ -11,9 +11,7 @@ require __DIR__.'/../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Report()->agentGet();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setStartDate('2019-01-29');
-$req->setEndDate('2019-01-29');
-$req->setGroupBy(["STAT_GROUP_BY_FIELD_STAT_TIME", "STAT_GROUP_BY_FIELD_ID"]);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));

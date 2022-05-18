@@ -12,9 +12,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->adConvert->create();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setName("测测测");
-$req->setConvertSourceType('AD_CONVERT_SOURCE_TYPE_JS');
-$req->setConvertType("AD_CONVERT_TYPE_FORM");
+$args = [];
+$req->setArgs($args);;
 
 print_r($client->excute($req));

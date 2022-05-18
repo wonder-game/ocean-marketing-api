@@ -9,6 +9,6 @@ require __DIR__ . '/../../index.php';
 require __DIR__ . '/../config.php';
 $auth = new ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
 $client = $auth->makeClient(TOKEN);
-$req = $client::AdvertisingPlan()->AdUpdateBudget()->setAdvertiserId(ADVERTISER_ID)
-    ->setData([['ad_id' => '1624073474955267', 'budget' => 155]])->send();//注意是二维
+$args = [];
+$req = $client::AdvertisingPlan()->AdUpdateBudget()->setArgs($args)->send();//注意是二维
 var_dump($req->getBody());

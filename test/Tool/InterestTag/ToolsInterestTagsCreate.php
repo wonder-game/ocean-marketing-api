@@ -11,8 +11,7 @@ require __DIR__ . '/../../config.php';
 $client = new ToutiaoSdk\TouTiaoClient(TOKEN);
 
 $req = $client::Tool()->interestTag->create();
-$req->setAdvertiserId(ADVERTISER_ID);
-$req->setName("测试测试");
-$req->setWords(['我', '测测']);
+$args = [];
+$req->setArgs($args);
 
 print_r($client->excute($req));
