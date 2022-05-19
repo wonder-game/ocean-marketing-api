@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Advertiser/BudgetGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advertiser/CustomerAdvertise.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advertiser/FundDailyStat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advertiser/FundGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advertiser/FundTransactionGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advertiser/UpdateBudget.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Report/ReportDualOneGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Report/ReportDualOneGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advertiser/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/Advertiser/Module.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +68,7 @@
       <workItem from="1652152318481" duration="4168000" />
       <workItem from="1652242011964" duration="5385000" />
       <workItem from="1652841427210" duration="5263000" />
-      <workItem from="1652941349016" duration="3965000" />
+      <workItem from="1652941349016" duration="4733000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>

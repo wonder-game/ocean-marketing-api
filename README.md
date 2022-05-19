@@ -9,7 +9,7 @@ composer require grace-team-work/ads-marketing-api
 
 ## Requirements
 
-- PHP 5.6 +
+- PHP 5.4 +
 
 ## Directory Structure
 ```
