@@ -50,7 +50,13 @@ var_dump($req->getBody());
 ## Method introduction
 账号服务模块       |执行方式
   ------------- | -------------
- 获取纵横组织账户(广告主)       |$client::Advertiser()->majordomoAdvertise()| 
+ 获取纵横组织账户(广告主)       |$client::Advertiser()->majordomoAdvertise()|
+ 获取纵横组织账户(广告主)(分页)      |$client::Advertiser()->customerAdvertise()|  
+ 查询账号余额      |$client::Advertiser()->fundGet()|  
+ 获取账户日预算      |$client::Advertiser()->budgetGet()|  
+ 更新账户日预算      |$client::Advertiser()->updateBudget()|  
+ 查询账户日流水      |$client::Advertiser()->fundDailyStat()|  
+ 查询账户流水明细      |$client::Advertiser()->fundTransactionGet()|  
 
 广告组模块       |执行方式
   ------------- | -------------

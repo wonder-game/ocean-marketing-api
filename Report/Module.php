@@ -55,4 +55,9 @@ class Module extends BaseModule
     {
         return new ReportCreativeGet($this->client);
     }
+
+    public function DualOneGet()
+    {
+        return new ReportDualOneGet($this->client);
+    }
 }
