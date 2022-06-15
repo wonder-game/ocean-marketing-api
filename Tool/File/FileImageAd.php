@@ -51,14 +51,122 @@ class FileImageAd extends RpcRequest
     protected $image_url;
 
     /**
-     * @param mixed $args
+     * 素材名，upload_type为UPLOAD_BY_FILE必填
+     * @var string $filename
+     */
+    protected $filename;
+
+    /**
+     * @return int
+     */
+    public function getAdvertiserId()
+    {
+        return $this->advertiser_id;
+    }
+
+    /**
+     * @param int $advertiser_id
      * @return $this
      */
-    public function setArgs($args)
+    public function setAdvertiserId($advertiser_id)
     {
-        foreach ($args as $key => $value) {
-            $this->params[$key] = $this->{$key} = $value;
-        }
+        $this->params["advertiser_id"] = $advertiser_id;
+        $this->advertiser_id = $advertiser_id;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getUploadType()
+    {
+        return $this->upload_type;
+    }
+
+    /**
+     * @param string $upload_type
+     * @return $this
+     */
+    public function setUploadType($upload_type)
+    {
+        $this->params["upload_type"] = $upload_type;
+        $this->upload_type = $upload_type;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImageSignature()
+    {
+        return $this->image_signature;
+    }
+
+    /**
+     * @param string $image_signature
+     * @return $this
+     */
+    public function setImageSignature($image_signature)
+    {
+        $this->params["image_signature"] = $image_signature;
+        $this->image_signature = $image_signature;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImageFile()
+    {
+        return $this->image_file;
+    }
+
+    /**
+     * @param string $image_file
+     * @return $this
+     */
+    public function setImageFile($image_file)
+    {
+        $this->params["image_file"] = '@' . $image_file;
+        $this->image_file = $image_file;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getImageUrl()
+    {
+        return $this->image_url;
+    }
+
+    /**
+     * @param string $image_url
+     * @return $this
+     */
+    public function setImageUrl($image_url)
+    {
+        $this->params["image_url"] = $image_url;
+        $this->image_url = $image_url;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFileName()
+    {
+        return $this->filename;
+    }
+
+    /**
+     * @param string $upload_type
+     * @return $this
+     */
+    public function setFileName($filename)
+    {
+        $this->params["filename"] = $filename;
+        $this->filename = $filename;
         return $this;
     }
 

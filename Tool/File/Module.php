@@ -41,6 +41,11 @@ class Module extends BaseModule
         return new FileVideoAdGet($this->client);
     }
 
+    public function videoAdDelete()
+    {
+        return new FileVideoAdDelete($this->client);
+    }
+
     public function videoCoverSuggest()
     {
         return new ToolsVideoCoverSuggest($this->client);

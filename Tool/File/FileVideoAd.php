@@ -37,14 +37,84 @@ class FileVideoAd extends RpcRequest
     protected $video_file;
 
     /**
-     * @param mixed $args
+     * 视频文件名,
+     * @var string $filename
+     */
+    protected $filename;
+
+    /**
+     * @return string
+     */
+    public function getAdvertiserId()
+    {
+        return $this->advertiser_id;
+    }
+
+    /**
+     * @param string $advertiser_id
      * @return $this
      */
-    public function setArgs($args)
+    public function setAdvertiserId($advertiser_id)
     {
-        foreach ($args as $key => $value) {
-            $this->params[$key] = $this->{$key} = $value;
-        }
+        $this->params["advertiser_id"] = $advertiser_id;
+        $this->advertiser_id = $advertiser_id;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getVideoSignature()
+    {
+        return $this->video_signature;
+    }
+
+    /**
+     * @param string $video_signature
+     * @return $this
+     */
+    public function setVideoSignature($video_signature)
+    {
+        $this->params["video_signature"] = $video_signature;
+        $this->video_signature = $video_signature;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getVideoFile()
+    {
+        return $this->video_file;
+    }
+
+    /**
+     * @param string $video_file
+     * @return $this
+     */
+    public function setVideoFile($video_file)
+    {
+        $this->params["video_file"] = '@' . $video_file;
+        $this->video_file = $video_file;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFileName()
+    {
+        return $this->filename;
+    }
+
+    /**
+     * @param string $upload_type
+     * @return $this
+     */
+    public function setFileName($filename)
+    {
+        $this->params["filename"] = $filename;
+        $this->filename = $filename;
         return $this;
     }
 
