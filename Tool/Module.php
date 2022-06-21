@@ -16,6 +16,7 @@ use core\Profile\BaseModule;
  * @property  \Tool\InterestTag\Module $interestTag
  * @property  \Tool\PicToVideo\Module $picToVideo
  * @property  \Tool\QueryTool\Module $queryTool
+ *  @property \Tool\AudiencePackage\Module $audiencePackage
  */
 class Module extends BaseModule
 {
@@ -27,6 +28,7 @@ class Module extends BaseModule
         'picToVideo' => \Tool\PicToVideo\Module::class,
         'queryTool' => \Tool\QueryTool\Module::class,
         'appManagement' => \Tool\AppManagement\Module::class,
+        'audiencePackage' => \Tool\AudiencePackage\Module::class,
     ];
 
     /**
