@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/AudiencePackageBind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/AudiencePackageCreate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/AudiencePackageGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/AudiencePackageUnbind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/AudiencePackageUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tool/AudiencePackage/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tool/AudiencePackage/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AudiencePackage/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,7 @@
       <workItem from="1654594945914" duration="7000000" />
       <workItem from="1654842128350" duration="6133000" />
       <workItem from="1655776997132" duration="597000" />
-      <workItem from="1655793155285" duration="1389000" />
+      <workItem from="1655793155285" duration="2441000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>
