@@ -17,6 +17,11 @@ class Module extends BaseModule
         return new CreativeCreate($this->client);
     }
 
+    public function procCreativeCreate()
+    {
+        return new ProcCreativeCreate($this->client);
+    }
+
     public function creativeGet()
     {
         return new CreativeGet($this->client);
@@ -35,6 +40,11 @@ class Module extends BaseModule
     public function creativeUpdate()
     {
         return new CreativeUpdate($this->client);
+    }
+
+    public function proccreativeUpdate()
+    {
+        return new ProcCreativeUpdate($this->client);
     }
 
     public function creativeUpdateStatus()

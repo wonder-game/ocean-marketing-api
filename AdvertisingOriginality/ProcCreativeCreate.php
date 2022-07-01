@@ -1,22 +1,21 @@
 <?php
 /**
- * 创建广告创意
+ * 创建程序化创意（营销链路）
  * User: yueguang
  * Date: 2022/4/12
  * Time: 10:27
  */
 namespace AdvertisingOriginality;
 
-use AdvertisingDelivery\CampaignCreate;
 use core\Profile\RpcRequest;
 
-class CreativeCreate extends RpcRequest
+class ProcCreativeCreate extends RpcRequest
 {
     /**
      * @var string
      */
     protected $method = 'POST';
-    protected $url = '/2/creative/create_v2/';
+    protected $url = '/2/creative/procedural_creative/create/';
     protected $content_type = 'application/json';
 
     /**
