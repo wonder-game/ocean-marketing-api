@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Profile/ToutiaoAuth.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/ToutiaoAuth.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <workItem from="1655878634740" duration="630000" />
       <workItem from="1656035136586" duration="594000" />
       <workItem from="1656665492530" duration="1798000" />
-      <workItem from="1656899297059" duration="6329000" />
+      <workItem from="1656899297059" duration="7191000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>

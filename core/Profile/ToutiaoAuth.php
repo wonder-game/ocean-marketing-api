@@ -108,6 +108,6 @@ class ToutiaoAuth
      */
     public function makeClient($access_token)
     {
-        return KuaishouClient::getInstance($access_token, $this->is_sanbox, $this->server_url, $this->box_url);
+        return TouTiaoClient::getInstance($access_token, $this->is_sanbox, $this->server_url, $this->box_url);
     }
 }
