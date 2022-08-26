@@ -10,6 +10,7 @@ namespace ToutiaoSdk;
 
 use AuthenticationOauth\GetAccessToken;
 use AuthenticationOauth\RefreshToken;
+use AuthenticationOauth\AdvertiserGet;
 use core\Exception\TouTiaoException;
 use core\Http\HttpRequest;
 use core\Profile\RequestInteface;
@@ -109,5 +110,13 @@ class ToutiaoAuth
     public function makeClient($access_token)
     {
         return TouTiaoClient::getInstance($access_token, $this->is_sanbox, $this->server_url, $this->box_url);
+    }
+
+
+    public function advertiserGet($access_token)
+    {
+        $request = new AdvertiserGet();
+        $request->setParams(['access_token' => $access_token, 'app_id' => $this->app_id, 'secret' => $this->secret]);
+        return $this->execute($request)->getBody();
     }
 }
