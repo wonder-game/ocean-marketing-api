@@ -16,11 +16,11 @@ class HttpRequest
     /**
      * @var int
      */
-    public static $connectTimeout = 30;//30 second
+    public static $connectTimeout = 20; //20 second
     /**
      * @var int
      */
-    public static $readTimeout = 80;//80 second
+    public static $readTimeout = 30; //30 second
 
     /**
      *

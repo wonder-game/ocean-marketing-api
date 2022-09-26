@@ -21,6 +21,7 @@ AuthenticationOauth/           头条OAuth2.0授权
 core/                          sdk核心
 Dmp/                           DMP人群管理模块
 Report/                        报表模块
+NewReport/                     广告体验版数据报表(广告投放体验版)
 Project/                       项目管理模块(广告投放体验版)  
 Promotion/                     广告管理模块(广告投放体验版)
 Tool/                          工具模块
@@ -78,14 +79,6 @@ var_dump($req->getBody());
  批量删除广告      |$client::Promotion()->promotionDelete()|
  批量获取广告审核建议      |$client::Promotion()->promotionRejectReasonGet()|
  批量更新广告素材启用状态      |$client::Promotion()->materialStatusUpdate()|
- 
- 广告体验版数据报表      |执行方式
-   ------------- | -------------
-  项目数据报表      |$client::Advertiser()->majordomoAdvertise()|
-  广告数据报表      |$client::Advertiser()->majordomoAdvertise()|
-  素材数据报表      |$client::Advertiser()->majordomoAdvertise()|
-  自定义报表      |$client::Advertiser()->majordomoAdvertise()|
-    
 
 账号服务模块       |执行方式
   ------------- | -------------

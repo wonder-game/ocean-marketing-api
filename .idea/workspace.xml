@@ -2,95 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/NewReport/CustomGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewReport/MaterialGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewReport/PromotionGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ProjectDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ProjectList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ProjectStatusUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/ProjectUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/MaterialStatusUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/Module.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionBidUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionBudgetUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionDelete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionRejectReasonGet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionStatusUpdate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Promotion/PromotionUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingDelivery/CampaignCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingDelivery/CampaignCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingDelivery/CampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingDelivery/CampaignGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingDelivery/CampaignUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingDelivery/CampaignUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingDelivery/CampaignUpdateStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingDelivery/CampaignUpdateStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingOriginality/CreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingOriginality/CreativeGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingOriginality/CreativeMaterialRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingOriginality/CreativeMaterialRead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingOriginality/CreativeRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingOriginality/CreativeRead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingOriginality/CreativeUpdateStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingOriginality/CreativeUpdateStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateBid.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateBid.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateBudget.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateBudget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdvertisingPlan/AdUpdateStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudienceDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudienceDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudienceLookalike.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudienceLookalike.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudiencePublish.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudiencePublish.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudiencePushV2.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudiencePushV2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudienceRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudienceRead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudienceRule.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudienceRule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpCustomAudienceSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpCustomAudienceSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpDataSourceCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpDataSourceCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpDataSourceFileUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpDataSourceFileUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpDataSourceRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpDataSourceRead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dmp/DmpDataSourceUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dmp/DmpDataSourceUpdate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAdvertiserGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAdvertiserGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAgentGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAgentGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAudienceAge.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAudienceAge.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAudienceCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAudienceCity.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAudienceGender.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAudienceGender.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAudienceProvince.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAudienceProvince.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportAudienceTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportAudienceTag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportCampaignGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportCampaignGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportCreativeGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportCreativeGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/ReportDualOneGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Report/ReportDualOneGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertPush.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertPush.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertRead.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertRead.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertUpdateStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdConvertUpdateStatus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdvConvertSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/AdConvert/ToolsAdvConvertSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordSelect.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordSelect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/CreativeWord/ToolsCreativeWordUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileImageAd.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileImageAd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileImageAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileImageAdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileImageAdvertiser.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileImageAdvertiser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileImageGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileImageGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileVideoAdDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileVideoAdDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileVideoAdGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileVideoAdGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/FileVideoGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/FileVideoGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/File/ToolsVideoCoverSuggest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/File/ToolsVideoCoverSuggest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsDelete.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsDelete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsId2word.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsId2word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsUpdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsUpdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsWord2id.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/InterestTag/ToolsInterestTagsWord2id.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/PicToVideo/ToolsPicToVideoStatusGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/PicToVideo/ToolsPicToVideoStatusGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/PicToVideo/ToolsPicToVideoTaskCreate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/PicToVideo/ToolsPicToVideoTaskCreate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/PicToVideo/ToolsVideoTaskCallback.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/PicToVideo/ToolsVideoTaskCallback.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/DpaBehaviourAvailables.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/DpaBehaviourAvailables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsAdQualityGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsAdQualityGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsAppSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsAppSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsBidSuggest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsBidSuggest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsEstimateAudience.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsEstimateAudience.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsIndustryGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsIndustryGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/QueryTool/ToolsRegionGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/QueryTool/ToolsRegionGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tool/ToolsSiteGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tool/ToolsSiteGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Http/HttpRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Http/HttpRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +81,7 @@
       <workItem from="1656899297059" duration="9920000" />
       <workItem from="1657850992946" duration="9531000" />
       <workItem from="1661508674328" duration="1336000" />
-      <workItem from="1664174779365" duration="7285000" />
+      <workItem from="1664174779365" duration="12084000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>

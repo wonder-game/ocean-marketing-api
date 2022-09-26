@@ -110,6 +110,11 @@ class TouTiaoClient
         return new \Advertiser\Module(self::$instance[static::$access_token]);
     }
 
+    public static function NewReport()
+    {
+        return new \NewReport\Module(self::$instance[static::$access_token]);
+    }
+
     public static function Project()
     {
         return new \Project\Module(self::$instance[static::$access_token]);
