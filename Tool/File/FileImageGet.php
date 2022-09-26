@@ -25,25 +25,6 @@ class FileImageGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 图片过滤条件
-     * 允许值: "width", "height", "ratio", "image_ids"
-     * @var array $filtering
-     */
-    protected $filtering;
-
-    /**
-     * 页码，默认值1
-     * @var int $page
-     */
-    protected $page;
-
-    /**
-     * 页面大小，默认值20
-     * @var int $page_size
-     */
-    protected $page_size;
-
-    /**
      * @param mixed $args
      * @return $this
      */

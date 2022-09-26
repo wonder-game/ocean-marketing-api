@@ -25,12 +25,6 @@ class DmpCustomAudienceDelete extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 人群包ID
-     * @var int $custom_audience_id
-     */
-    protected $custom_audience_id;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -48,6 +42,5 @@ class DmpCustomAudienceDelete extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->custom_audience_id, 'custom_audience_id');
     }
 }

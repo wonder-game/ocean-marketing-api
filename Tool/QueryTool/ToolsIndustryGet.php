@@ -17,12 +17,6 @@ class ToolsIndustryGet extends RpcRequest
     protected $content_type = 'application/json';
 
     /**
-     * 只获取某级别数据，1:第一级,2:第二级,3:第三级，默认都返回
-     * @var int $level
-     */
-    protected $level;
-
-    /**
      * @param mixed $args
      * @return $this
      */

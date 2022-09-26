@@ -24,11 +24,6 @@ class CreativeRead extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 计划ID
-     */
-    protected $ad_id;
-    
-    /**
      * @param mixed $args
      * @return $this
      */

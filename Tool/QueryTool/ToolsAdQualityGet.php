@@ -24,12 +24,6 @@ class ToolsAdQualityGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 查询广告质量度
-     * @var array $ad_ids
-     */
-    protected $ad_ids;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class ToolsAdQualityGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id,'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->ad_ids, 'ad_ids');
     }
 }

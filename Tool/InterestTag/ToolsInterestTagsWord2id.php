@@ -24,12 +24,6 @@ class ToolsInterestTagsWord2id extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 兴趣关键词
-     * @var array $words
-     */
-    protected $words;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class ToolsInterestTagsWord2id extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->words, 'words');
     }
 }

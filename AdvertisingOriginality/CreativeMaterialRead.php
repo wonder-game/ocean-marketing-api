@@ -25,17 +25,6 @@ class CreativeMaterialRead extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 创意ID集合
-     */
-    protected $creative_ids;
-
-    /**
-     * 查询字段集合, 默认查询所有字段。详见下方response字段定义
-     * 允许值: "id", "ad_id", "advertiser_id", "title", "image_info","image_mode", "opt_status"
-     */
-    protected $fields;
-    
-    /**
      * @param mixed $args
      * @return $this
      */

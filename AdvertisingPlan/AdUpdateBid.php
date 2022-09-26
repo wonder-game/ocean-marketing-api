@@ -28,21 +28,6 @@ class AdUpdateBid extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 计划ID集合
-     */
-    protected $ad_ids;
-
-    /**
-     * 出价
-     */
-    protected $bid;
-
-    /**
-     * 批量修改，包含计划id和出价
-     */
-    protected $data;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -60,8 +45,6 @@ class AdUpdateBid extends RpcRequest
      */
     public function check()
     {
-        //RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        //RequestCheckUtil::checkNotNull($this->ad_ids, 'ad_ids');
     }
 
 

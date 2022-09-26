@@ -24,18 +24,6 @@ class ToolsSiteGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 页码 默认值: 1
-     * @var int $page
-     */
-    protected $page;
-
-    /**
-     * 页面数据量 默认值: 20
-     * @var int $page_size
-     */
-    protected $page_size;
-
-    /**
      * @param mixed $args
      * @return $this
      */

@@ -28,29 +28,6 @@ class CampaignCreate extends RpcRequest
      */
     protected $advertiser_id;
 
-    /**
-     * 广告组名称  长度为1-100个字符，其中1个中文字符算2位
-     */
-    protected $campaign_name;
-
-    /**
-     * 广告组预算类型  允许值: "BUDGET_MODE_INFINITE","BUDGET_MODE_DAY"
-     */
-    protected $budget_mode;
-
-    /**
-     * 可选
-     * 广告组预算(当budget_mode=BUDGET_MODE_DAY时,必填,且日预算不少于1000元)
-     * 取值范围: ≥ 0
-     */
-    protected $budget;
-
-    /**
-     * 广告组推广目的
-     * 允许值: "LINK", "APP","DPA","GOODS"
-     */
-    protected $landing_type;
-
 
     /**
      * @param mixed $args
@@ -71,10 +48,6 @@ class CampaignCreate extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->campaign_name, 'campaign_name');
-        RequestCheckUtil::checkNotNull($this->budget_mode, 'budget_mode');
-        RequestCheckUtil::checkNotNull($this->landing_type, 'landing_type');
-        RequestCheckUtil::checkMaxLength($this->campaign_name, 100, 'campaign_name');
     }
 
 

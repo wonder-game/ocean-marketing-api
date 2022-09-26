@@ -24,12 +24,6 @@ class ToolsCreativeWordDelete extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 创意词包ID
-     * @var int $creative_word_id
-     */
-    protected $creative_word_id;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class ToolsCreativeWordDelete extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->creative_word_id, 'creative_word_id');
     }
 }

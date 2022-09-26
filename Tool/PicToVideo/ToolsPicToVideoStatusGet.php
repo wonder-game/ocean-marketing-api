@@ -24,12 +24,6 @@ class ToolsPicToVideoStatusGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 视频ID
-     * @var string $video_id
-     */
-    protected $video_id;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class ToolsPicToVideoStatusGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->video_id, 'video_id');
     }
 }

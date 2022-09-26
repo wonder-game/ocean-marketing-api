@@ -17,18 +17,6 @@ class ToolsRegionGet extends RpcRequest
     protected $content_type = 'application/json';
 
     /**
-     * 地域类型，目前只支持：BUSINESS_DISTRICT(商圈)
-     * @var string $region_type
-     */
-    protected $region_type;
-
-    /**
-     * 只获取某层级数据，详见【附录-地域层级】
-     * @var string  $region_level
-     */
-    protected $region_level;
-
-    /**
      * @param mixed $args
      * @return $this
      */

@@ -24,18 +24,6 @@ class DmpDataSourceFileUpload extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 文件
-     * @var string $file
-     */
-    protected $file;
-
-    /**
-     * 文件MD5
-     * @var string $file_signature
-     */
-    protected $file_signature;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -53,6 +41,5 @@ class DmpDataSourceFileUpload extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkFileExist($this->file, 'file');
     }
 }

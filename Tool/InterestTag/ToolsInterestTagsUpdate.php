@@ -24,24 +24,6 @@ class ToolsInterestTagsUpdate extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 兴趣词包id
-     * @var int $id
-     */
-    protected $id;
-
-    /**
-     * 兴趣词包名称
-     * @var string $name
-     */
-    protected $name;
-
-    /**
-     * 兴趣词包具体内容
-     * @var array $words
-     */
-    protected $words;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -59,8 +41,5 @@ class ToolsInterestTagsUpdate extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->id, 'id');
-        RequestCheckUtil::checkNotNull($this->name, 'name');
-        RequestCheckUtil::checkNotNull($this->words, 'words');
     }
 }

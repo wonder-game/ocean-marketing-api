@@ -24,12 +24,6 @@ class DmpDataSourceRead extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 数据源ID列表
-     * @var array $data_source_id_list
-     */
-    protected $data_source_id_list;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class DmpDataSourceRead extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->data_source_id_list, 'data_source_id_list');
     }
 }

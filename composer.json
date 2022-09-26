@@ -30,7 +30,10 @@
             "AdvertisingPlan\\": "AdvertisingPlan/",
             "AuthenticationOauth\\": "AuthenticationOauth/",
             "Tool\\": "Tool/",
-            "Advertiser\\": "Advertiser/"
+            "Advertiser\\": "Advertiser/",
+            "NewReport\\": "NewReport/",
+            "Project\\": "Project/",
+            "Promotion\\": "Promotion/"
         }
     }
 }

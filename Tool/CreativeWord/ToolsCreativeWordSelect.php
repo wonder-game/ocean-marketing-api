@@ -24,12 +24,6 @@ class ToolsCreativeWordSelect extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 创意词包id列表，如不填默认返回所有创意词包
-     * @var array $creative_word_ids
-     */
-    protected $creative_word_ids;
-
-    /**
      * @param mixed $args
      * @return $this
      */

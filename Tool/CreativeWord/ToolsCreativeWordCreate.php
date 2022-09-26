@@ -25,24 +25,6 @@ class ToolsCreativeWordCreate extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 创意词包名称
-     * @var string $name
-     */
-    protected $name;
-
-    /**
-     * 默认词
-     * @var string $default_word
-     */
-    protected $default_word;
-
-    /**
-     * 替换词
-     * @var array $words
-     */
-    protected $words;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -60,8 +42,5 @@ class ToolsCreativeWordCreate extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->name, 'name');
-        RequestCheckUtil::checkNotNull($this->default_word, 'default_word');
-        RequestCheckUtil::checkNotNull($this->words, 'words');
     }
 }

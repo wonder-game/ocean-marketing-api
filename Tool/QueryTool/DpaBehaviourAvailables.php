@@ -24,12 +24,6 @@ class DpaBehaviourAvailables extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 平台id
-     * @var string $platform_id
-     */
-    protected $platform_id;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class DpaBehaviourAvailables extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->platform_id, 'platform_id');
     }
 }

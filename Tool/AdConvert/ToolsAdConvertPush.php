@@ -24,18 +24,6 @@ class ToolsAdConvertPush extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 转化id
-     * @var int $convert_id
-     */
-    protected $convert_id;
-
-    /**
-     * 推送的广告主ID列表
-     * @var array $target_advertiser_ids
-     */
-    protected $target_advertiser_ids;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -53,7 +41,5 @@ class ToolsAdConvertPush extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->convert_id, 'convert_id');
-        RequestCheckUtil::checkNotNull($this->target_advertiser_ids, 'target_advertiser_ids');
     }
 }

@@ -28,17 +28,6 @@ class CampaignUpdateStatus extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 广告组ID集合
-     */
-    protected $campaign_ids;
-
-    /**
-     * 操作, "enable"表示启用, "delete"表示删除, "disable"表示暂停
-     * 允许值: "enable", "delete", "disable"
-     */
-    protected $opt_status;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -49,14 +38,13 @@ class CampaignUpdateStatus extends RpcRequest
         }
         return $this;
     }
-    
+
     /**
      *
      * @throws InvalidParamException
      */
     public function check()
     {
-        RequestCheckUtil::checkAllowField($this->opt_status, ['enable', 'delete', 'disable'], 'opt_status');
     }
 
 

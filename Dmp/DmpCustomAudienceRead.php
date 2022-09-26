@@ -24,12 +24,6 @@ class DmpCustomAudienceRead extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 人群包ID列表 长度取值范围: 1-100
-     * @var array $custom_audience_ids
-     */
-    protected $custom_audience_ids;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -47,6 +41,5 @@ class DmpCustomAudienceRead extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->custom_audience_ids, 'custom_audience_ids');
     }
 }

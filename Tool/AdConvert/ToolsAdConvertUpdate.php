@@ -24,18 +24,6 @@ class ToolsAdConvertUpdate extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 转化id
-     * @var int $convert_id
-     */
-    protected $convert_id;
-
-    /**
-     * 下载链接
-     * @var string $download_url
-     */
-    protected $download_url;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -53,7 +41,5 @@ class ToolsAdConvertUpdate extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->convert_id, 'convert_id');
-        RequestCheckUtil::checkNotNull($this->download_url, 'download_url');
     }
 }

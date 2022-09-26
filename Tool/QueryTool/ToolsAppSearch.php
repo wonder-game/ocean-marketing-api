@@ -24,26 +24,6 @@ class ToolsAppSearch extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * @var string 查询条件
-     * APP_NAME:按名称搜索，APP_ID:按ID搜索
-        默认值: APP_NAME
-        允许值: "APP_NAME", "APP_ID"
-     */
-    protected $search_by;
-
-    /**
-     * 搜索关键字，search_by=APP_NAME时必填
-     * @var string $app_name
-     */
-    protected $app_name;
-
-    /**
-     * 应用的ID，search_by=APP_ID时必填
-     * @var integer
-     */
-    protected $app_id;
-
-    /**
      * @param mixed $args
      * @return $this
      */

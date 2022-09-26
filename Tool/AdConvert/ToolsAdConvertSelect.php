@@ -24,26 +24,6 @@ class ToolsAdConvertSelect extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * @var string $external_url
-     */
-    protected $external_url;
-
-    /**
-     * @var string $package_name
-     */
-    protected $package_name;
-
-    /**
-     * @var string $itunes_url
-     */
-    protected $itunes_url;
-
-    /**
-     * @var array $fields
-     */
-    protected $fields;
-    
-    /**
      * @param mixed $args
      * @return $this
      */

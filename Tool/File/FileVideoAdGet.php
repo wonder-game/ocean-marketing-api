@@ -25,12 +25,6 @@ class FileVideoAdGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 视频ids
-     * @var array $video_ids
-     */
-    protected $video_ids;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -48,6 +42,5 @@ class FileVideoAdGet extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->video_ids, 'video_ids');
     }
 }

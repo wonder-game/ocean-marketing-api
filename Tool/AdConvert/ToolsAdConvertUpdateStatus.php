@@ -24,22 +24,6 @@ class ToolsAdConvertUpdateStatus extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 转化ID
-     * @var int $convert_id
-     */
-    protected $convert_id;
-
-    /**
-     * 操作状态，详见【附录-操作状态】, 允许值：
-     * "AD_CONVERT_OPT_STATUS_ENABLE",
-     * "AD_CONVERT_OPT_STATUS_DISABLE",
-     * "AD_CONVERT_OPT_STATUS_PAUSE"
-     *
-     * @var string $opt_status
-     */
-    protected $opt_status;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -57,7 +41,5 @@ class ToolsAdConvertUpdateStatus extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->convert_id, 'convert_id');
-        RequestCheckUtil::checkNotNull($this->opt_status, 'opt_status');
     }
 }

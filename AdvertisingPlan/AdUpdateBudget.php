@@ -28,21 +28,6 @@ class AdUpdateBudget extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 计划ID
-     */
-    protected $ad_id;
-
-    /**
-     * 预算
-     */
-    protected $budget;
-
-    /**
-     * 批量修改预算，包含计划ID和预算
-     */
-    protected $data;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -60,8 +45,6 @@ class AdUpdateBudget extends RpcRequest
      */
     public function check()
     {
-     //   RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-      //  RequestCheckUtil::checkNotNull($this->ad_id, 'ad_id');
     }
 
 

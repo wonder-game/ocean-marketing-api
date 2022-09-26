@@ -21,11 +21,13 @@ AuthenticationOauth/           头条OAuth2.0授权
 core/                          sdk核心
 Dmp/                           DMP人群管理模块
 Report/                        报表模块
+Project/                       项目管理模块(广告投放体验版)  
+Promotion/                     广告管理模块(广告投放体验版)
 Tool/                          工具模块
-Tool/AppManagement             工具模块/应用管理
-Tool/AdConvert                 工具模块/转化目标管理
-Tool/CreativeWord              工具模块/动态创意词包管理
-Tool/File                      工具模块/素材管理
+  Tool/AppManagement           工具模块/应用管理
+  Tool/AdConvert               工具模块/转化目标管理
+  Tool/CreativeWord            工具模块/动态创意词包管理
+  Tool/File                    工具模块/素材管理
 ```
 
 ## Example
@@ -48,6 +50,64 @@ var_dump($req->getBody());
 ```
 
 ## Method introduction
+
+广告体验版数据报表     |执行方式
+  ------------- | -------------
+ 项目数据报表      |$client::NewReport()->projectGet()|
+ 广告数据报表      |$client::NewReport()->promotionGet()|
+ 素材数据报表      |$client::NewReport()->materialGet()|
+ 自定义报表      |$client::NewReport()->customGet()|
+ 
+
+项目管理模块(广告投放体验版)      |执行方式
+  ------------- | -------------
+ 创建项目      |$client::Project()->projectCreate()|
+ 更新项目      |$client::Project()->projectUpdate()|
+ 获取项目列表      |$client::Project()->projectList()|
+ 批量更新项目状态      |$client::Project()->projectStatusUpdate()|
+ 批量删除项目      |$client::Project()->projectDelete()|
+ 
+广告管理模块(广告投放体验版)      |执行方式
+  ------------- | -------------
+ 创建广告      |$client::Promotion()->promotionCreate()|
+ 修改广告      |$client::Promotion()->promotionUpdate()|
+ 获取广告列表      |$client::Promotion()->promotionList()|
+ 批量更新广告预算      |$client::Promotion()->promotionBudgetUpdate()|
+ 批量更新广告出价      |$client::Promotion()->promotionBidUpdate()|
+ 批量更新广告启用状态      |$client::Promotion()->promotionStatusUpdate()|
+ 批量删除广告      |$client::Promotion()->promotionDelete()|
+ 批量获取广告审核建议      |$client::Promotion()->promotionRejectReasonGet()|
+ 批量更新广告素材启用状态      |$client::Promotion()->materialStatusUpdate()|
+ 
+ 广告体验版数据报表      |执行方式
+   ------------- | -------------
+  项目数据报表      |$client::Advertiser()->majordomoAdvertise()|
+  广告数据报表      |$client::Advertiser()->majordomoAdvertise()|
+  素材数据报表      |$client::Advertiser()->majordomoAdvertise()|
+  自定义报表      |$client::Advertiser()->majordomoAdvertise()|
+    
+
+账号服务模块       |执行方式
+  ------------- | -------------
+ 创建项目      |$client::Advertiser()->majordomoAdvertise()|
+ 更新项目      |$client::Advertiser()->majordomoAdvertise()|
+ 获取项目列表      |$client::Advertiser()->majordomoAdvertise()|
+ 批量更新项目状态      |$client::Advertiser()->majordomoAdvertise()|
+ 批量删除项目      |$client::Advertiser()->majordomoAdvertise()|
+
+
+账号服务模块       |执行方式
+  ------------- | -------------
+ 获取纵横组织账户(广告主)       |$client::Advertiser()->majordomoAdvertise()|
+ 获取纵横组织账户(广告主)(分页)      |$client::Advertiser()->customerAdvertise()|  
+ 查询账号余额      |$client::Advertiser()->fundGet()|  
+ 获取账户日预算      |$client::Advertiser()->budgetGet()|  
+ 更新账户日预算      |$client::Advertiser()->updateBudget()|  
+ 查询账户日流水      |$client::Advertiser()->fundDailyStat()|  
+ 查询账户流水明细      |$client::Advertiser()->fundTransactionGet()|  
+
+
+
 账号服务模块       |执行方式
   ------------- | -------------
  获取纵横组织账户(广告主)       |$client::Advertiser()->majordomoAdvertise()|
@@ -173,9 +233,6 @@ var_dump($req->getBody());
  ------------ | -------------
  获取建站列表 | $client::Tool()->siteGet()
   
- 
-
- 
  
 ## License
 

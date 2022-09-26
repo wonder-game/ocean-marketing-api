@@ -24,31 +24,6 @@ class DmpCustomAudienceRule extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 人群包标签 字符串长度取值范围: 1..20
-     * @var string $tag
-     */
-    protected $tag;
-
-    /**
-     * 人群包名称
-     * 字符串长度取值范围: 1..20
-     * @var string $name
-     */
-    protected $name;
-
-    /**
-     * DMP规则类型，详见【附录-DMP规则类型】
-     * @var string $profile_type
-     */
-    protected $profile_type;
-
-    /**
-     * DMP规则描述，数组
-     * @var array $profiles
-     */
-    protected $profiles;
-    
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -66,9 +41,5 @@ class DmpCustomAudienceRule extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->tag, 'tag');
-        RequestCheckUtil::checkNotNull($this->name, 'name');
-        RequestCheckUtil::checkNotNull($this->profile_type, 'profile_type');
-        RequestCheckUtil::checkNotNull($this->profiles, 'profiles');
     }
 }

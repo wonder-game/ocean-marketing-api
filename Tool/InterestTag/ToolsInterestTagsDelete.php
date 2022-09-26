@@ -25,12 +25,6 @@ class ToolsInterestTagsDelete extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 兴趣关键词词包id
-     * @var int $id
-     */
-    protected $id;
-
-    /**
      * @param mixed $args
      * @return $this
      */
@@ -48,6 +42,5 @@ class ToolsInterestTagsDelete extends RpcRequest
     public function check()
     {
         RequestCheckUtil::checkNotNull($this->advertiser_id, 'advertiser_id');
-        RequestCheckUtil::checkNotNull($this->id, 'id');
     }
 }

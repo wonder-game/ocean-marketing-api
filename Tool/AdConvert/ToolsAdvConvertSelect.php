@@ -24,30 +24,6 @@ class ToolsAdvConvertSelect extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 需要查询的convert_ids，如不填写默认返回所有的转化ID
-     * @var array $convert_ids
-     */
-    protected $convert_ids;
-
-    /**
-     * 操作状态
-     * @var string $opt_status
-     */
-    protected $opt_status;
-
-    /**
-     * 页数 默认值： 1
-     * @var int $page
-     */
-    protected $page;
-
-    /**
-     * 页面大小 默认值： 10
-     * @var int $page_size
-     */
-    protected $page_size;
-    
-    /**
      * @param mixed $args
      * @return $this
      */

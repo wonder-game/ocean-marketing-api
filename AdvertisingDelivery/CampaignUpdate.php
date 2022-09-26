@@ -28,35 +28,6 @@ class CampaignUpdate extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * 广告组ID
-     */
-    protected $campaign_id;
-
-    /**
-     * (可选)
-     * 广告组名称  长度为1-100个字符，其中1个中文字符算2位
-     */
-    protected $campaign_name;
-
-    /**
-     * 时间戳,从read接口得到,用于判断是否基于最新信息修改
-     */
-    protected $modify_time;
-
-    /**
-     * (可选)
-     * 广告组预算类型  允许值: "BUDGET_MODE_INFINITE","BUDGET_MODE_DAY"
-     */
-    protected $budget_mode;
-
-    /**
-     * (可选)
-     * 广告组预算(当budget_mode=BUDGET_MODE_DAY时,必填,且日预算不少于1000元)
-     * 取值范围: ≥ 0
-     */
-    protected $budget;
-
-    /**
      * @param mixed $args
      * @return $this
      */
