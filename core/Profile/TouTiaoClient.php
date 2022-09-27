@@ -57,7 +57,7 @@ class TouTiaoClient
         $headers = [
             'Access-Token' => static::$access_token,
             'Content-Type' => $request->getContentType(),
-            'X-Debug-Mode' => 1,
+//            'X-Debug-Mode' => 1,
         ];
         if (null == $url) {
             $url = $request->getUrl();

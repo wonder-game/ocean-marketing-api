@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Http/HttpRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Http/HttpRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,7 @@
       <workItem from="1656899297059" duration="9920000" />
       <workItem from="1657850992946" duration="9531000" />
       <workItem from="1661508674328" duration="1336000" />
-      <workItem from="1664174779365" duration="12084000" />
+      <workItem from="1664174779365" duration="15258000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>
