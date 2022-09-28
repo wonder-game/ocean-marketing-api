@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/NewReport/CustomGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/CustomGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewReport/MaterialGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/MaterialGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewReport/ProjectGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/ProjectGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewReport/PromotionGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/PromotionGet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/ProjectList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProjectList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Promotion/PromotionList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion/PromotionList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +85,7 @@
       <workItem from="1656899297059" duration="9920000" />
       <workItem from="1657850992946" duration="9531000" />
       <workItem from="1661508674328" duration="1336000" />
-      <workItem from="1664174779365" duration="15258000" />
+      <workItem from="1664174779365" duration="22118000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>
@@ -111,9 +117,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="637" y="171" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1664177304597" />
-    <state x="636" y="251" width="647" height="538" key="find.popup" timestamp="1656669238124">
+    <state x="636" y="251" width="647" height="538" key="find.popup" timestamp="1664272496613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="251" width="647" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1656669238124" />
+    <state x="636" y="251" width="647" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1664272496613" />
   </component>
 </project>

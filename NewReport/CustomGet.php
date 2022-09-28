@@ -17,7 +17,7 @@ class CustomGet extends RpcRequest
     /**
      * @var string
      */
-    protected $method = 'POST';
+    protected $method = 'GET';
     protected $url = '/v3.0/report/custom/get/';
     protected $content_type = 'application/json';
 
@@ -32,9 +32,11 @@ class CustomGet extends RpcRequest
      */
     public function setArgs($args)
     {
+        $this->url .= '?';
         foreach ($args as $key => $value) {
-            $this->params[$key] = $this->{$key} = $value;
+            $this->url .= $key . '=' . $value . '&';
         }
+        $this->url = rtrim($this->url, '&');
         return $this;
     }
 
