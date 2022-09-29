@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/NewReport/PromotionGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/PromotionGet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ProjectList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProjectList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Promotion/PromotionList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion/PromotionList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Profile/TouTiaoClient.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <workItem from="1656899297059" duration="9920000" />
       <workItem from="1657850992946" duration="9531000" />
       <workItem from="1661508674328" duration="1336000" />
-      <workItem from="1664174779365" duration="22118000" />
+      <workItem from="1664174779365" duration="23138000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>

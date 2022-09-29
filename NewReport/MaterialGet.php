@@ -34,7 +34,11 @@ class MaterialGet extends RpcRequest
     {
         $this->url .= '?';
         foreach ($args as $key => $value) {
-            $this->url .= $key . '=' . $value . '&';
+            if (!is_array($value)) {
+                $this->url .= $key . '=' . $value . '&';
+            } else {
+                $this->url .= $key . '=' . json_encode($value) . '&';
+            }
         }
         $this->url = rtrim($this->url, '&');
         return $this;
