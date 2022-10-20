@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NewReport/CustomGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/CustomGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewReport/MaterialGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/MaterialGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewReport/ProjectGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/ProjectGet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewReport/PromotionGet.php" beforeDir="false" afterPath="$PROJECT_DIR$/NewReport/PromotionGet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/ProjectList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProjectList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Promotion/PromotionList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion/PromotionList.php" afterDir="false" />
     </list>
@@ -84,7 +80,9 @@
       <workItem from="1656899297059" duration="9920000" />
       <workItem from="1657850992946" duration="9531000" />
       <workItem from="1661508674328" duration="1336000" />
-      <workItem from="1664174779365" duration="23138000" />
+      <workItem from="1664174779365" duration="27775000" />
+      <workItem from="1665193400657" duration="3105000" />
+      <workItem from="1666242025132" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>
@@ -108,10 +106,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1657106012751" />
-    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1658400104009">
+    <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1665301012430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1658400104009" />
+    <state x="739" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1665301012430" />
     <state x="637" y="171" key="SettingsEditor" timestamp="1664177304597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -19,7 +19,7 @@ class PromotionList extends RpcRequest
      */
     protected $method = 'GET';
     protected $url = '/v3.0/promotion/list/';
-    protected $content_type = 'application/json';
+    protected $content_type = '';
 
     /**
      * 广告主ID
