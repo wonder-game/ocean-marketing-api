@@ -50,4 +50,9 @@ class Module extends BaseModule
     {
         return new ToolsVideoCoverSuggest($this->client);
     }
+
+    public function fileMaterialBind()
+    {
+        return new FileMaterialBind($this->client);
+    }
 }

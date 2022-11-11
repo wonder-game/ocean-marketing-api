@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc70d092-1a79-4381-ac9b-5271b1206280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project/ProjectList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/ProjectList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Promotion/PromotionList.php" beforeDir="false" afterPath="$PROJECT_DIR$/Promotion/PromotionList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tool/File/FileMaterialBind.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,18 +29,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NewProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Tool/File" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ads-marketing-api\Tool\File" />
       <recent name="D:\phpstudy_pro\WWW\ads-marketing-api\NewProject" />
       <recent name="D:\phpstudy_pro\WWW\ads-marketing-api" />
       <recent name="D:\phpstudy_pro\WWW\ads-marketing-api\Promotion" />
       <recent name="D:\phpstudy_pro\WWW\ads-marketing-api\Project" />
-      <recent name="D:\phpstudy_pro\WWW\ads-marketing-api\core\Profile" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -82,7 +81,8 @@
       <workItem from="1661508674328" duration="1336000" />
       <workItem from="1664174779365" duration="27775000" />
       <workItem from="1665193400657" duration="3105000" />
-      <workItem from="1666242025132" duration="25000" />
+      <workItem from="1666242025132" duration="1087000" />
+      <workItem from="1668139230245" duration="359000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1652152421655</created>
@@ -102,10 +102,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="111" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1657106012751">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1668139559349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1657106012751" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1668139559349" />
     <state x="739" y="260" key="FileChooserDialogImpl" timestamp="1665301012430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
