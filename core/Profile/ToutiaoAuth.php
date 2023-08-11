@@ -14,7 +14,6 @@ use AuthenticationOauth\AdvertiserGet;
 use core\Exception\TouTiaoException;
 use core\Http\HttpRequest;
 use core\Profile\RequestInteface;
-use KuaishouSdk\KuaishouClient;
 
 class ToutiaoAuth
 {
@@ -105,7 +104,7 @@ class ToutiaoAuth
 
     /**
      * @param string $access_token
-     * @return KuaishouClient
+     * @return TouTiaoClient
      */
     public function makeClient($access_token)
     {

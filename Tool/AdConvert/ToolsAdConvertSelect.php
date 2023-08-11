@@ -10,7 +10,6 @@ namespace Tool\AdConvert;
 
 use core\Helper\RequestCheckUtil;
 use core\Profile\RpcRequest;
-use Couchbase\RegexpSearchQuery;
 
 class ToolsAdConvertSelect extends RpcRequest
 {
