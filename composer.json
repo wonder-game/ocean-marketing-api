@@ -1,39 +1,43 @@
 {
-    "name": "grace-team-work/ads-marketing-api",
-    "description": "巨量引擎 MarketingApi SDK",
-    "keywords": [
-        "巨量引擎",
-        "头条",
-        "marketing-api",
-        "sdk"
-    ],
-    "type": "library",
-    "license": "MIT",
-    "require": {
-        "php": ">=5.4.0"
+  "name": "wonder-game/ocean-marketing-api",
+  "description": "巨量引擎 MarketingApi SDK",
+  "keywords": [
+    "巨量引擎",
+    "头条",
+    "marketing-api",
+    "sdk"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "authors": [
+    {
+      "name": "huangyueguang",
+      "email": "1218199594@qq.com"
     },
-    "authors": [
-        {
-            "name": "huangyueguang",
-            "email": "1218199594@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "ToutiaoSdk\\": "core/Profile/",
-            "core\\": "core/",
-            "Report\\": "Report/",
-            "Dmp\\": "Dmp/",
-            "AdvertisingDelivery\\": "AdvertisingDelivery/",
-            "AdvertisingOriginality\\": "AdvertisingOriginality/",
-            "AdvertisingPlan\\": "AdvertisingPlan/",
-            "AuthenticationOauth\\": "AuthenticationOauth/",
-            "Tool\\": "Tool/",
-            "Advertiser\\": "Advertiser/",
-            "NewReport\\": "NewReport/",
-            "Project\\": "Project/",
-            "Promotion\\": "Promotion/"
-        }
+    {
+      "name": "Joyboo && lamson",
+      "email": "wonder-game@qq.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ToutiaoSdk\\": "core/Profile/",
+      "core\\": "core/",
+      "Report\\": "Report/",
+      "Dmp\\": "Dmp/",
+      "AdvertisingDelivery\\": "AdvertisingDelivery/",
+      "AdvertisingOriginality\\": "AdvertisingOriginality/",
+      "AdvertisingPlan\\": "AdvertisingPlan/",
+      "AuthenticationOauth\\": "AuthenticationOauth/",
+      "Tool\\": "Tool/",
+      "Advertiser\\": "Advertiser/",
+      "NewReport\\": "NewReport/",
+      "Project\\": "Project/",
+      "Promotion\\": "Promotion/"
+    }
+  }
 }
