@@ -32,7 +32,7 @@ class TouTiaoException extends Exception
      * @param $errorMessage
      * @param $errorCode
      */
-    public function __construct($errorMessage, $errorCode)
+    public function __construct($errorMessage = '', $errorCode = 0)
     {
         parent::__construct($errorMessage);
         $this->errorMessage = $errorMessage;
@@ -49,9 +49,9 @@ class TouTiaoException extends Exception
     }
 
     /**
-     * @param $errorCode
+     * @param int $errorCode
      */
-    public function setErrorCode($errorCode)
+    public function setErrorCode($errorCode = 0)
     {
         $this->errorCode = $errorCode;
     }
@@ -65,9 +65,9 @@ class TouTiaoException extends Exception
     }
 
     /**
-     * @param $errorMessage
+     * @param string $errorMessage
      */
-    public function setErrorMessage($errorMessage)
+    public function setErrorMessage($errorMessage = '')
     {
         $this->errorMessage = $errorMessage;
     }
@@ -81,9 +81,9 @@ class TouTiaoException extends Exception
     }
 
     /**
-     * @param $errorType
+     * @param string $errorType
      */
-    public function setErrorType($errorType)
+    public function setErrorType($errorType = '')
     {
         $this->errorType = $errorType;
     }

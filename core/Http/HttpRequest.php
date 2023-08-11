@@ -86,11 +86,11 @@ class HttpRequest
     }
 
     /**
-     * @param $postFildes
+     * @param array $postFildes
      *
-     * @return bool|string
+     * @return array|string
      */
-    public static function getPostHttpBody($postFildes)
+    public static function getPostHttpBody($postFildes = [])
     {
         $isMultipart = false;
         foreach ($postFildes as $apiParamKey => $apiParamValue) {
@@ -105,11 +105,11 @@ class HttpRequest
     }
 
     /**
-     * @param $headers
+     * @param array $headers
      *
      * @return array
      */
-    public static function getHttpHearders($headers)
+    public static function getHttpHearders($headers = [])
     {
         $httpHeader = array();
         foreach ($headers as $key => $value) {

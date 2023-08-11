@@ -10,7 +10,7 @@ namespace core\Exception;
 
 class InvalidParamException extends TouTiaoException
 {
-    public function __construct($errorMessage, $errorCode = 500)
+    public function __construct($errorMessage = '', $errorCode = 500)
     {
         parent::__construct($errorMessage, $errorCode);
     }

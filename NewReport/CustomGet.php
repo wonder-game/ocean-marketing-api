@@ -27,10 +27,10 @@ class CustomGet extends RpcRequest
     protected $advertiser_id;
 
     /**
-     * @param mixed $args
+     * @param array $args
      * @return $this
      */
-    public function setArgs($args)
+    public function setArgs($args = [])
     {
         $this->url .= '?';
         foreach ($args as $key => $value) {

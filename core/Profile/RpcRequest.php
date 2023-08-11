@@ -52,7 +52,7 @@ class RpcRequest implements RequestInteface
         $this->client = $client;
     }
 
-    public function setUrl($url)
+    public function setUrl($url = '')
     {
         $this->url = $url;
         return $this;
@@ -78,14 +78,14 @@ class RpcRequest implements RequestInteface
         return $this->params;
     }
 
-    public function addParam($key, $value)
+    public function addParam($key = '', $value = '')
     {
         $this->params[$key] = $value;
         $this->$key = $value;
         return $this;
     }
 
-    public function setParams($array)
+    public function setParams($array = [])
     {
         foreach ($array as $key => $value) {
             if (property_exists($this, $key)) {

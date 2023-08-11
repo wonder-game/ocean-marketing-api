@@ -30,8 +30,8 @@ class ToutiaoAuth
 
     /**
      * AuthClient constructor.
-     * @param $app_id
-     * @param $secret
+     * @param string $app_id
+     * @param string $secret
      * @param bool $is_sanbox
      * @param null $server_url
      * @param null $box_url
@@ -67,7 +67,7 @@ class ToutiaoAuth
 
     /**
      * 获取access_token
-     * @param $auth_code
+     * @param string $auth_code
      * @return string
      * @throws TouTiaoException
      */
@@ -81,7 +81,7 @@ class ToutiaoAuth
 
     /**
      * 刷新access_token
-     * @return string
+     * @return string string
      * @throws TouTiaoException
      */
     public function refreshToken($refresh_token)
@@ -94,7 +94,7 @@ class ToutiaoAuth
     /**
      * 获取Authcode Url
      *
-     * @param $cb_url
+     * @param string $cb_url
      * @return string
      */
     public function getAuthCodeUrl($cb_url, $state = "your_custom_params")
@@ -104,7 +104,7 @@ class ToutiaoAuth
     }
 
     /**
-     * @param $access_token
+     * @param string $access_token
      * @return KuaishouClient
      */
     public function makeClient($access_token)

@@ -20,9 +20,9 @@ class Autoloader
 
     /**
      *
-     * @param $className
+     * @param string $className
      */
-    public static function autoload($className)
+    public static function autoload($className = '')
     {
         $directories = dirname(dirname(__DIR__));
         foreach (self::$autoloadPathArray as $path) {
@@ -57,7 +57,7 @@ class Autoloader
         }
     }
 
-    public static function addAutoloadPath($path)
+    public static function addAutoloadPath($path = '')
     {
         self::$autoloadPathArray[] = $path;
     }

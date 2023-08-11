@@ -160,7 +160,7 @@ class FileImageAd extends RpcRequest
     }
 
     /**
-     * @param string $upload_type
+     * @param string $filename
      * @return $this
      */
     public function setFileName($filename)

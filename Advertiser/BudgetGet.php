@@ -27,10 +27,10 @@ class BudgetGet extends RpcRequest
     protected $advertiser_ids;
 
     /**
-     * @param mixed $args
+     * @param array $args
      * @return $this
      */
-    public function setArgs($args)
+    public function setArgs($args = [])
     {
         foreach ($args as $key => $value) {
             $this->params[$key] = $this->{$key} = $value;
