@@ -12,7 +12,8 @@
   "require": {
     "php": ">=7.0.0",
     "ext-json": "*",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-mbstring": "*"
   },
   "authors": [
     {
@@ -27,19 +28,19 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "ToutiaoSdk\\": "core/Profile/",
-      "core\\": "core/",
-      "Report\\": "Report/",
-      "Dmp\\": "Dmp/",
-      "AdvertisingDelivery\\": "AdvertisingDelivery/",
-      "AdvertisingOriginality\\": "AdvertisingOriginality/",
-      "AdvertisingPlan\\": "AdvertisingPlan/",
-      "AuthenticationOauth\\": "AuthenticationOauth/",
-      "Tool\\": "Tool/",
-      "Advertiser\\": "Advertiser/",
-      "NewReport\\": "NewReport/",
-      "Project\\": "Project/",
-      "Promotion\\": "Promotion/"
+      "ToutiaoSdk\\": "src/core/Profile/",
+      "core\\": "src/core/",
+      "Report\\": "src/Report/",
+      "Dmp\\": "src/Dmp/",
+      "AdvertisingDelivery\\": "src/AdvertisingDelivery/",
+      "AdvertisingOriginality\\": "src/AdvertisingOriginality/",
+      "AdvertisingPlan\\": "src/AdvertisingPlan/",
+      "AuthenticationOauth\\": "src/AuthenticationOauth/",
+      "Tool\\": "src/Tool/",
+      "Advertiser\\": "src/Advertiser/",
+      "NewReport\\": "src/NewReport/",
+      "Project\\": "src/Project/",
+      "Promotion\\": "src/Promotion/"
     }
   }
 }
