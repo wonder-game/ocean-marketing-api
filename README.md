@@ -36,8 +36,12 @@ Tool/                          工具模块
 ## Example
 
 ```php
-// 获取token, refresh_token
-$auth = new ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
+// 生成授权跳转地址
+$auth = new \ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
+echo $auth->getAuthUrl('你的回调接收地址', '你的透传值');
+
+// 获取access_token, refresh_token
+$auth = new \ToutiaoSdk\ToutiaoAuth(APPID, SECRET);
 print_r($auth->getAccessToken(AUTH_CODE));
 
 // 刷新token
@@ -46,7 +50,7 @@ print_r($auth->refreshToken(REFRESH_TOKEN));
 
 ```php
 // 调用示例
-$client = new ToutiaoSdk\TouTiaoClient(TOKEN);
+$client = new \ToutiaoSdk\TouTiaoClient(TOKEN);
 $args = [];
 $req = $client::AdvertisingDelivery()->campaignGet()->setArgs($args)->send();
 var_dump($req->getBody());
