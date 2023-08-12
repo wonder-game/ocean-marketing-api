@@ -8,7 +8,6 @@
 
 namespace ToutiaoSdk;
 
-use AuthenticationOauth\GetAccessToken;
 use AuthenticationOauth\RefreshToken;
 use AuthenticationOauth\AdvertiserGet;
 use core\Exception\TouTiaoException;
@@ -136,20 +135,6 @@ class ToutiaoAuth
 
         return HttpRequest::curl($url, $request->getMethod(), json_encode($params), $headers);
     }
-
-    /**
-     * 获取access_token
-     * @param string $auth_code
-     * @return string
-     * @throws TouTiaoException
-     */
-/*    public function getAccessToken($auth_code)
-    {
-        $request = new GetAccessToken();
-        $request->setParams(['grant_type' => 'auth_code', 'app_id' => $this->app_id, 'secret' => $this->secret]);
-        $request->addParam('auth_code', $auth_code);
-        return $this->execute($request)->getBody();
-    }*/
 
     /**
      * 刷新access_token
