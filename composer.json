@@ -14,7 +14,7 @@
     "ext-json": "*",
     "ext-curl": "*",
     "ext-mbstring": "*",
-    "easyswoole/http-client": "dev-master"
+    "easyswoole/http-client": "^1.2"
   },
   "authors": [
     {

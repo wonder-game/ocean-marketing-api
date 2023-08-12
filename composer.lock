@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "be7f1d03fadabad52ed1aafaed46db78",
+    "content-hash": "88a62cadc126cb1f29427778e5cf652f",
     "packages": [
         {
             "name": "easyswoole/http-client",
-            "version": "dev-master",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easy-swoole/http-client.git",
@@ -34,7 +34,6 @@
                 "easyswoole/phpunit": "^1.0",
                 "easyswoole/swoole-ide-helper": "^1.2"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -62,7 +61,7 @@
             ],
             "support": {
                 "issues": "https://github.com/easy-swoole/http-client/issues",
-                "source": "https://github.com/easy-swoole/http-client/tree/master"
+                "source": "https://github.com/easy-swoole/http-client/tree/1.6.1"
             },
             "time": "2023-03-07T03:00:55+00:00"
         },
